@@ -1,0 +1,38 @@
+.optionsContainer {
+
+}
+
+.optionRow{
+  background: #ffffff;
+  color:black;
+  margin-bottom:5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius:8px;
+  font-size:15px;
+  cursor: pointer;
+  font-weight: normal;
+  &:hover{
+    background:#7388a7;
+    color:white;
+  }
+
+}
+
+.disable {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 100%;
+}
+.optionRowHighlighted {
+  background:#7388a7;
+  color:white;
+}
+
+.green {
+  background: #48ee22 !important;
+}
+
+.red {
+  background: red !important;
+}
